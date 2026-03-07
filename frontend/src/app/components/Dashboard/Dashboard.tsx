@@ -1,9 +1,6 @@
-import React from "react";
-import './Dashboard.css'; // Optional if using CSS
+import './Dashboard.css';
 
-
-
-const Dashboard: React.FC<DashboardProps> = () => {
+const Dashboard = () => {
   return (
     <div className="flex flex-col md:flex-row min-h-screen">
       {/* Sidebar */}
