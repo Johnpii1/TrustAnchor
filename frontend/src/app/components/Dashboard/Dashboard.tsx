@@ -1,7 +1,7 @@
 import React from "react";
 import './Dashboard.css'; // Optional if using CSS
 
-interface DashboardProps {}
+
 
 const Dashboard: React.FC<DashboardProps> = () => {
   return (
