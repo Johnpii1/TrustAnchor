@@ -1,11 +1,7 @@
 #![no_std]
 use soroban_sdk::{contract, contractimpl, contracttype, Address, Env};
 
-mod nft {
-    soroban_sdk::contractimport!(
-        file = "../../target/wasm32-unknown-unknown/release/remittance_nft.wasm"
-    );
-}
+use remittance_nft::RemittanceNFTClient;
 
 mod events;
 
